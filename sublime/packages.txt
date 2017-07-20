@@ -1,0 +1,10 @@
+Anaconda
+BoxyTheme
+Browser Refresh
+GitGutter
+Jinja2
+SideBarEnhancements
+SublimeLinter
+SublimeLinter-json
+SublimeLinter-pep8
+SublimeLinter-pyflakes
