@@ -1,5 +1,4 @@
-Anaconda
-BoxyTheme
+Material Theme
 Browser Refresh
 GitGutter
 Jinja2
