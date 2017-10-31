@@ -63,8 +63,11 @@ POWERLEVEL9K_BATTERY_DISCONNECTED_VISUAL_IDENTIFIER_COLOR="249"
 POWERLEVEL9K_TIME_BACKGROUND="black"
 POWERLEVEL9K_TIME_FOREGROUND="249"
 POWERLEVEL9K_TIME_FORMAT="%D{%H:%M:%S} \UE12E"
+POWERLEVEL9K_VIRTUALENV_BACKGROUND="black"
+POWERLEVEL9K_VIRTUALENV_FOREGROUND="046"
+POWERLEVEL9K_PYTHON_ICON='\Ue21a'
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=('status' 'os_icon' 'todo' 'dir' 'vcs')
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=('nvm' 'rvm' 'load' 'ram_joined' 'battery' 'time')
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=('nvm' 'virtualenv' 'rvm' 'load' 'ram_joined' 'battery' 'time')
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
 
@@ -143,3 +146,5 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls="ls -la"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
