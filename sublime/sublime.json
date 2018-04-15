@@ -3,10 +3,10 @@
     "auto_complete": true,
     "auto_complete_commit_on_tab": true,
     "bold_folder_labels": true,
-    "color_scheme": "Packages/Agila Theme/Agila Dracula.tmTheme",
+    "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
     "copy_with_empty_selection": true,
     "fade_fold_buttons": false,
-    "font_face": "Source Code Pro",
+    "font_face": "Droid Sans Mono Awesome",
     "font_size": 12,
     "ignored_packages":
     [
@@ -28,7 +28,7 @@
     "show_encoding": true,
     "show_line_endings": true,
     "tab_size": 4,
-    "theme": "Agila Dracula.sublime-theme",
+    "theme": "Material-Theme.sublime-theme",
     "translate_tabs_to_spaces": true,
     "trim_trailing_white_space_on_save": true
 }
